@@ -1,0 +1,165 @@
+
+
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	outline:none;
+	font-family: 'Roboto',  sans-serif;
+}
+
+
+
+.body{
+    background-color: #bcc5c1; 
+    border-top-color: greenyellow;
+	height: 100vh;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    
+  }
+ 
+.navigation{
+		background-color: #505251; 
+		border-bottom-style: solid; 
+		border-bottom-width: 10px; 
+		border-bottom-color: #0d3879;
+		color:greenyellow;
+		min-height: 100px; 
+		font-weight: helvetica; 
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 100px; 
+		text-align: center; 
+		position: bottom;
+		padding-top: 10px; 
+		width: 100%;
+		left: 0;
+		bottom: 0;
+		
+	}
+
+
+
+.dropdown-item{
+    color: #38487e; 
+	padding: 12px;
+}
+
+.dropdown-menu{
+    background-color:#e2eceb; 
+	padding:12px;
+	color:rgb(11, 14, 14)
+}
+
+.nav-link:hover{
+    background-color:#b1c2c0;
+	padding: 12px;
+	width: 33,33%;
+
+
+
+}
+li.nav-item{
+	text-align: center;
+	display: inline-block;
+	word-wrap: break-word;
+	align-items:stretch;
+	Float:left;
+	padding: 12px;
+	
+
+}
+
+a{
+	
+	color:greenyellow;
+	
+	
+}
+a:hover a:focus{
+	color:darkblue;
+}
+.navbar-nav>li>a{
+	text-overflow: inherit;
+	text-align: center;
+	
+
+}
+.navbar-brand{
+	color:greenyellow;
+	
+    padding: 9.5px 15px;
+    font-size: 50px;
+    line-height: 21px;
+    height: 40px;
+}
+
+h5{
+	color:greenyellow;
+	
+}
+
+select#selDataset{
+	
+	color: darkblue;
+}
+h3.panel-title{
+	color:black;
+
+
+}
+.panel-primary>.panel-heading{
+	color:rgb(11, 14, 14);
+	background: greenyellow;
+}
+img{
+	width: 5px;
+	height: 5px;
+	
+	align-items: inherit;
+}
+
+image{
+	width: 30px;
+	height: 20px;
+
+}
+
+p{
+	color: greenyellow;
+	font-size: 16px;
+
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid greenyellow;
+    padding: 5px;
+  }
+
+  table {
+    border-spacing: 2px;
+  } 
+
+.footer{
+	background-color: #505251; 
+    border-top-style: solid; 
+    border-top-width: 4px; 
+    border-top-color: #0d3879;
+    color: greenyellow; 
+    min-height: 50px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: bottom;
+    padding-top: 10px; 
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
